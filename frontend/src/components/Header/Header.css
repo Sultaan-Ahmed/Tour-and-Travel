@@ -1,0 +1,39 @@
+.header{
+        width: 100%;
+        height: 80px;
+        line-height: 80px;
+}
+.logo img{
+    width: 30%;
+}
+.menu{
+    margin-bottom: 0;
+}
+.nav_item> a{
+    font-size: 1.1rem;
+    font-weight:500;
+    text-decoration: none;
+    color: var(--heading-color);
+}
+.nav_item>a:hover{
+    color: inherit;
+}
+.nav_item>a.active{
+    color:var(--secondary-color)
+}
+.mobile_menu{
+    display: none;
+    font-size: 1.3rem;
+    color:var(--heading-color)
+}
+.sticky_header{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background: #fff;
+    position: sticky;
+    top:0;
+    left: 0;
+    box-shadow: 3px 3px 6px -3px #ddd;
+    z-index: 999;
+}
